@@ -1,0 +1,26 @@
+{
+  "name": "microsoftteamsclone",
+  "version": "1.0.0",
+  "description": "MS TEAMS VIDEO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+ 
+  "author": "Preeti Shubham",
+  "license": "",
+  
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "ngrok": "^4.0.1",
+    "socket.io": "^4.1.2",
+    "swagger-ui-express": "^4.1.6",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
